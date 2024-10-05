@@ -1,9 +1,10 @@
 //can be record class (just a data carrier - IDE suggestion (will read about it))
-public class AcquireUserInfo {
-    private final int askCount;
+public class AcquireUserInfo extends PrototypeAcquireUserInfo {
+    //private final int askCount;
 
     public AcquireUserInfo(int askCount) {
-        this.askCount = askCount;
+        super(askCount);
+        //this.askCount = askCount;
     }
 
     public int getAskCount() {

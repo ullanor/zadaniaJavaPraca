@@ -30,6 +30,12 @@ public class Main {
             PrintArrayWithElapsedTime(userInfoData.getNamesArrayList(), System.currentTimeMillis());
             PrintArrayWithElapsedTime(userInfoData.getNamesLinkedList(), System.currentTimeMillis());
         }
+
+        int i = 2;
+        boolean x = true;
+        Boolean bool = false;
+        System.out.println(bool.toString());
+        //queue jako dziedziczenie dla linkedlist, super w dziedziczeniu w java
     }
 
     public static void PrintArrayWithElapsedTime(List<String> userArray,long startTime){
