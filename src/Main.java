@@ -26,8 +26,10 @@ public class Main {
 
         System.out.println(acquireUserInfo.getEndMessage());
 
-        PrintArrayWithElapsedTime(userInfoData.getNamesArrayList(),System.currentTimeMillis());
-        PrintArrayWithElapsedTime(userInfoData.getNamesLinkedList(),System.currentTimeMillis());
+        for (int i = 0; i < 6; i++) {
+            PrintArrayWithElapsedTime(userInfoData.getNamesArrayList(), System.currentTimeMillis());
+            PrintArrayWithElapsedTime(userInfoData.getNamesLinkedList(), System.currentTimeMillis());
+        }
     }
 
     public static void PrintArrayWithElapsedTime(List<String> userArray,long startTime){
